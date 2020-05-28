@@ -1,0 +1,7 @@
+{
+    "Repositories": 
+    [
+        { "Name": "FirstRepo", "BranchOrTag": "Branch", "BranchName": "master"},
+        { "Name": "SecondRepo", "BranchOrTag": "Branch", "BranchName": "master"}
+    ]
+}
