@@ -1,2 +1,7 @@
-# CheckOut
-This tool checks out multiple repositories based on a configuration file
+# -- CheckOut -- 
+This tool updates multiple git repositories based on a .json config file
+## Requirements
++ Python
+
+## The configuration file must be structured as follows
+<img src=“https://github.com/Soonkz/CheckOut/blob/master/github/config.PNG”>
