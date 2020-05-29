@@ -2,7 +2,7 @@
 ------------------------------------------
 This tool updates multiple git repositories based on a .json config file
 ## Requirements (optional)
-+ Python or use the executable file from release package
++ Python or use the executable file from the release package
 ------------------------------------------
 ## The configuration file must be structured as follows
 ![not found](https://github.com/Soonkz/CheckOut/blob/master/github/config.PNG?raw=true)
