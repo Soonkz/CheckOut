@@ -7,6 +7,17 @@ import json
 
 os.system('color')
 
+def changeRepo(name):
+    path_parent = os.path.dirname(os.getcwd())
+    os.chdir(path_parent)
+    newPath = os.getcwd() + "\\" + name
+    print(colored("switch to repository: " + newPath,'magenta'))
+    os.chdir(newPath)
+
+    
+rootDirectory = str(sys.argv[1])
+print("root dir: " + rootDirectory)
+changeRepo(rootDirectory)
     
 def Impressum(repo):
     print(colored("+++++++++++++++++++++++++++++\n",'magenta'))
@@ -81,13 +92,6 @@ def checkOutput(consoleOutput,operation,branchname,repo):
             sys.exit()
         else:
             print(colored("Fast Forward Pull successfully performed"))
-
-def changeRepo(name):
-    path_parent = os.path.dirname(os.getcwd())
-    os.chdir(path_parent)
-    newPath = os.getcwd() + "\\" + name
-    print(colored("switch to repository: " + newPath,'magenta'))
-    os.chdir(newPath)
 
 
 def checkOutRepo(name,branchOrTag,branchName):

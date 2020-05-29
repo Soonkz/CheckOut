@@ -1,7 +1,8 @@
+
 {
     "Repositories": 
     [
-        { "Name": "FirstRepo", "BranchOrTag": "Branch", "BranchName": "master"},
-        { "Name": "SecondRepo", "BranchOrTag": "Branch", "BranchName": "master"}
+        { "Name": "FutureDeveloper", "BranchOrTag": "Branch", "BranchName": "master"},
+        { "Name": "CheckOut", "BranchOrTag": "Branch", "BranchName": "master"}
     ]
 }
